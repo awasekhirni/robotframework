@@ -1,0 +1,20 @@
+copyright 2021 awasekhirni@gmail.com Awase Khirni Syed 
+Elain Technologies Inc Canada. 
+
+
+python -m venv pttwo 
+./scripts/activate
+python.exe -m pip install --upgrade pip
+pip install pytest 
+
+pip freeze > requirements.txt 
+pip list 
+
+
+executing the code 
+pytest .\pttwoprj -v  # verbose mode of the testing 
+pytest .\pttwoprj\test_pttwomain.py::Test2One -v # to run a single test class 
+pytest .\pttwoprj\ -v -k test_strs --tb=no #running using module name with traceback NO 
+pytest .\pttwoprj -v -k test_str --tb=no --maxfail=2 # exit the testcase if there are more than 2 fails
+pytest .\pttwoprj   -v -k test_str --tb=no --collect-only 
+pytest -v --tb=no

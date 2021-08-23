@@ -1,0 +1,15 @@
+copyright 2021 awasekhirni@gmail.com Awase Khirni Syed 
+Elain Technologies Inc Canada. 
+For Canadian Client
+
+python -m venv ptone 
+./scripts/activate
+python.exe -m pip install --upgrade pip
+pip install pytest 
+
+pip freeze > requirements.txt 
+pip list 
+
+
+executing the code 
+pytest .\ptoneprj -v  # verbose mode of the testing 
