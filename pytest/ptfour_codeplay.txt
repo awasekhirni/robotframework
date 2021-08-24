@@ -1,0 +1,35 @@
+copyright 2021 awasekhirni@gmail.com Awase Khirni Syed 
+Elain Technologies Inc Canada. 
+
+
+python -m venv ptfour
+./scripts/activate
+python.exe -m pip install --upgrade pip
+pip install pytest 
+pip install pytest-repeat
+pip install pytest-html
+
+pip freeze > requirements.txt 
+pip list 
+
+
+executing the code 
+pytest .\ptfour-v  # verbose mode of the testing 
+
+
+Marking test functions with attributes 
+- pytest has a set of builtin markers 
+    1. usefixtures - usefixtures on a test function or class 
+    2. filterwarnings - filter certain warning of a test function 
+    3. skip - always skip a test function 
+    4. skipif - skip a test function if a certain condition is met 
+    5. xfail - produce an 'expected failure' outcome if a certain condition is met 
+    6. parameterize - perform multiple calss to the same test function 
+
+
+#filtering based on function names 
+pytest .\ptfourprj -v -k win # starts the tests for functions with "win" 
+pytest .\ptfourprj -m 
+
+#report generation of the pytest 
+pytest --junitxml= report.xml 
