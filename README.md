@@ -8,3 +8,4 @@ learning path for automation
 2. Selenium 
 3. Robot Framework /Robocorp
 4. Appium 
+5. UI path/ blue prism for RPA (knowledge about how automation engines work)
