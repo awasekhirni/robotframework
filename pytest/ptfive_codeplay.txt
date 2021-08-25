@@ -16,6 +16,8 @@ firefox => https://github.com/mozilla/geckodriver/releases port:4444
 chrome => https://chromedriver.chromium.org/getting-started  https://chromedriver.chromium.org/downloads port 9515
 internet explorer => https://www.selenium.dev/downloads/ port 5555
 edge driver => port 9515 
+opera driver => https://github.com/operasoftware/operachromiumdriver/releases 
+
 
 pip freeze > requirements.txt 
 pip list 
