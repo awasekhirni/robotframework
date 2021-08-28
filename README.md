@@ -5,7 +5,7 @@ awase008@gmail.com awasekhirni@gmail.com
 
 learning path for automation 
 1. pytest 
-2. Selenium 
+2. Selenium / pylenium (poetry+pylenium+pytest)
 3. Robot Framework /Robocorp
 4. Appium 
 5. UI path/ blue prism for RPA (knowledge about how automation engines work)
