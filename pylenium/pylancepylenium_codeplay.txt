@@ -1,0 +1,24 @@
+Python Selenium 
+copyright 2021 awasekhirni@gmail.com Awase Khirni Syed 
+Elain Technologies Inc Canada. 
+
+
+Pylenium, Poetry, autopep8 and flake8 
+
+mkdir example01
+cd example01
+poetry init 
+pyleniumio package install 
+autopep8 package install 
+flake8 package install 
+poetry install => install all the dependencies 
+
+Configure VSCode 
+- select interpreter 
+- create tests folder (with __init__.py)
+-Configure tests 
+
+=> poetry env info 
+=> poetry env info --path 
+
+=> poetry run pylenium init
