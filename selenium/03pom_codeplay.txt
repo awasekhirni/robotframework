@@ -1,0 +1,59 @@
+Copyright 2021 Awase Khirni Syed awase008@gmail.com awasekhirni@gmail.com
+Elain Technologies Inc Canada.
+
+Page Object Model Design Pattern Implementation and Best practices for automation of tests
+
+
+- objective: any type of testing process(automation or manual) is to improve product quality by
+  reporting early bugs and getting them fixed by the development prior to its release.
+
+  - test automation coverage can be considered as an important KPI to measure the test code's effectiveness
+
+  - a design pattern where the focus is
+        - on reducing code duplication
+        - on code reusability
+        - minimization of code/update/maintenance
+        - Modular and structured
+        - locators/web elements are stored in a separate class file and test cases that contain the core
+        logic are in a different file.
+        - Any changes in the WEB UI ELEMENTS will require minimal or no changes in the test scenarios since locators and
+        test scripts are stored separately. (Minimal impact due to UI changes)
+        -Integration with multiple test frameworks
+  - All pages, have corresponding page classes that are part of the Automation Under Test (AUT)
+
+
+  Page Object Model (POM) has the core components
+  - Page Object Element (Page Class/Page Object) - the "WebPage class" is an object repository for the "Web Elements/Web UI elements"
+    of the web pages which are under AUT. They also contain an implementation of the interfaces/ methods to perform operations
+    on these web elements.
+   - Test cases - they contain the implementation of the actual test scenarios. it uses page methods/methods in the page class
+   to interact with the page's UI elements. if there is a change in the UI of the web page, only the Page Class needs to be updated
+   and the test code remains UNCHANGED.
+
+
+
+./venv/scripts/activate
+pip install pipenv
+pipenv install selenium pytest
+or alternative pip install selenium pytest
+
+pip install pytest-html
+
+#pytest parallel execution
+pip install pytest-xdist
+
+steps
+1. create the following folder structure
+  /Config => configuring test data
+  /Drivers => drivers for the browser
+  /Pages => Webelement or object repository and page action methods
+  /Reports => generate the html reports of the tests based on the number of test cases
+  /Test => global fixture + individual test cases for each page (mapped on to the /Pages)
+
+ 
+
+#run
+pytest Tests/test_LoginPage.py -v --html=./Reports/hubSpot.html
+
+#running the tests in parallel with 3 threads
+pytest Tests/test_LoginPage.py -v -n 3 --html=./Reports/hubSpot.html
