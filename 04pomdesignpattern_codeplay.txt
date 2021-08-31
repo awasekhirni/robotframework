@@ -1,0 +1,38 @@
+Copyright 2021 Awase Khirni Syed awase008@gmail.com awasekhirni@gmail.com
+Elain Technologies Inc Canada.
+
+
+Page Object Model Design Pattern Scaffold template - based on saucelabs demo 
+
+Page Object Model 
+- Design pattern 
+- to manage the test cases and page objects separately 
+- data driven, behaviour-driven, keyword-driven framework using POM 
+  - sometime industry uses hybrid models 
+ 
+- helping us with the code-reusability code maintenance, object repository int eh cuatomation frame 
+- each UI element is treated separetly using an object repository
+- object classes > webelement locations for each element of every web page 
+- Page class has action methods to apply the selenium actions on UI web elements 
+- Page object class that represents a web page and hold the functionality and the members 
+
+
+pip install selenium pytest pytest-html pytest-xdist pdoc3
+
+pdoc3 for generating documentation 
+
+steps
+1. create the following folder structure
+  /Config => configuring test data
+  /Drivers => drivers for the browser
+  /Pages => Webelement or object repository and page action methods
+  /Reports => generate the html reports of the tests based on the number of test cases
+  /Tests => global fixture + individual test cases for each page (mapped on to the /Pages)
+
+
+
+#run
+pytest Tests/test_LoginPage.py -v --html=./Reports/hubSpot.html
+
+#running the tests in parallel with 3 threads
+pytest Tests/test_LoginPage.py -v -n 3 --html=./Reports/hubSpot.html
