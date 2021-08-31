@@ -32,7 +32,7 @@ steps
 
 
 #run
-pytest Tests/test_LoginPage.py -v --html=./Reports/hubSpot.html
+pytest Tests/test_LoginPage.py -v --html=./Reports/pomreport.html
 
 #running the tests in parallel with 3 threads
-pytest Tests/test_LoginPage.py -v -n 3 --html=./Reports/hubSpot.html
+pytest Tests/test_LoginPage.py -v -n 3 --html=./Reports/pomreport.html
