@@ -10,23 +10,50 @@ learning path for automation
 4. Appium 
 5. UI path/ blue prism for RPA (knowledge about how automation engines work)
 
+Extensions to Install 
+1. SelectorsHub for chrome/firefox 
+2. Chropath 
+3. xpath finder 
+
 https://patrickhlauke.github.io/touch/
 
 Websites for practicing your automation tests 
 1. https://www.saucedemo.com/
-2. https://www.seleniumeasy.com/test/
-3. copart.com 
-4. wikipedia.com 
-5. google.com 
-6. hubspot.com 
-7. linkedin.com 
-8. facebook 
-9. reddit.com 
-10. https://opensource-demo.orangehrmlive.com/
-11. https://phptravels.com/demo/
-12. https://the-internet.herokuapp.com/
-13. https://the-internet.herokuapp.com/
-14. http://automationpractice.com/index.php?id_category=8&controller=category
+2. https://ultimateqa.com/automation
+3. https://github.com/cypress-io/cypress-realworld-app
+4. https://github.com/gothinkster/realworld
+5. https://www.telerik.com/support/demos
+6. https://www.seleniumeasy.com/test/
+7. http://webdriveruniversity.com/index.html
+8. https://demo.applitools.com/
+9. http://the-internet.herokuapp.com/
+10. http://parabank.parasoft.com/parabank/admin.htm(opens%20in%20a%20new%20tab)
+11. http://a.testaddressbook.com/
+12. copart.com 
+13. wikipedia.com 
+14. google.com 
+15. hubspot.com 
+16. linkedin.com 
+17. facebook 
+18. reddit.com 
+19. https://opensource-demo.orangehrmlive.com/
+20. https://phptravels.com/demo/
+21. https://the-internet.herokuapp.com/
+22. https://the-internet.herokuapp.com/
+23. http://automationpractice.com/index.php?id_category=8&controller=category
+24. http://automationpractice.com/index.php
+25. http://demoqa.com/
+26. https://compendiumdev.co.uk/
+27. https://github.com/nadvolod/react-shopping-cart
+
+
+Android and iOS
+https://github.com/saucelabs/sample-app-mobile
+
+API
+https://petstore.swagger.io/v2/swagger.json
+https://httpbin.org/#/
+https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking-GetBooking
 
 MobileFirst Demo Sites 
 https://preview.enableds.com/product/?theme=payapp
