@@ -10,7 +10,7 @@ learning path for automation
 4. Appium 
 5. UI path/ blue prism for RPA (knowledge about how automation engines work)
 
-Extensions to Install 
+Browser Extensions to Install 
 1. SelectorsHub for chrome/firefox 
 2. Chropath 
 3. xpath finder 
