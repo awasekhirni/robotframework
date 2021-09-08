@@ -42,10 +42,11 @@ Websites for practicing your automation tests
 22. https://the-internet.herokuapp.com/
 23. http://automationpractice.com/index.php?id_category=8&controller=category
 24. http://automationpractice.com/index.php
-25. http://demoqa.com/
+25. https://www.demoqa.com/
 26. https://compendiumdev.co.uk/
 27. https://github.com/nadvolod/react-shopping-cart
 28. https://restcountries.eu/rest/v2/alpha/IN
+29. 
 
 
 Android and iOS
