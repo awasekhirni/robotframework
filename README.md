@@ -46,7 +46,7 @@ Websites for practicing your automation tests
 26. https://compendiumdev.co.uk/
 27. https://github.com/nadvolod/react-shopping-cart
 28. https://restcountries.eu/rest/v2/alpha/IN
-29. 
+29. https://ngendigital.com/practice
 
 
 Android and iOS
