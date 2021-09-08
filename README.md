@@ -45,6 +45,7 @@ Websites for practicing your automation tests
 25. http://demoqa.com/
 26. https://compendiumdev.co.uk/
 27. https://github.com/nadvolod/react-shopping-cart
+28. https://restcountries.eu/rest/v2/alpha/IN
 
 
 Android and iOS
